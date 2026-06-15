@@ -5,21 +5,21 @@
 class SlackTui < Formula
   desc "A keyboard-first terminal Slack client"
   homepage "https://github.com/kurenn/slack-tui"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kurenn/slack-tui/releases/download/v0.3.0/slack-tui_0.3.0_darwin_amd64.tar.gz"
-      sha256 "7420f8ae06f1dcfa1f45bc6cfda9f2f86d8762dd46d03fedd5f306206b0d772b"
+      url "https://github.com/kurenn/slack-tui/releases/download/v0.4.0/slack-tui_0.4.0_darwin_amd64.tar.gz"
+      sha256 "a1e64adc93e8baeccdb5357eeb9055fa27d577938a580194c3e58eac1dbd82c6"
 
       define_method(:install) do
         bin.install "slack-tui"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kurenn/slack-tui/releases/download/v0.3.0/slack-tui_0.3.0_darwin_arm64.tar.gz"
-      sha256 "8365bd741ecc00bb7ed6eadba304bc683d56143ae8cbef20e434b237915be398"
+      url "https://github.com/kurenn/slack-tui/releases/download/v0.4.0/slack-tui_0.4.0_darwin_arm64.tar.gz"
+      sha256 "9d22cabab3b02fd96a0dc900cdbe1c1314e49e73b595c732413a123703037afe"
 
       define_method(:install) do
         bin.install "slack-tui"
@@ -29,15 +29,15 @@ class SlackTui < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kurenn/slack-tui/releases/download/v0.3.0/slack-tui_0.3.0_linux_amd64.tar.gz"
-      sha256 "097eb45103c8ae0036640a0d75f64edeea6ed1925ec5073869762dbb8437d268"
+      url "https://github.com/kurenn/slack-tui/releases/download/v0.4.0/slack-tui_0.4.0_linux_amd64.tar.gz"
+      sha256 "df4bc9152ed5c2a682fc404d27557aeaedb0b9d8fd72a5603af1c5f00634ed74"
       define_method(:install) do
         bin.install "slack-tui"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kurenn/slack-tui/releases/download/v0.3.0/slack-tui_0.3.0_linux_arm64.tar.gz"
-      sha256 "aa5e56584d553b83941b94be0c77586144aec47a4bbea04a18bd9bf6b9374400"
+      url "https://github.com/kurenn/slack-tui/releases/download/v0.4.0/slack-tui_0.4.0_linux_arm64.tar.gz"
+      sha256 "15324c6c57392077c8cc939e6d2248cdaf0b71f0c4d00532d2a5e8e1ad4e69d2"
       define_method(:install) do
         bin.install "slack-tui"
       end
