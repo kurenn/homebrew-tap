@@ -1,7 +1,7 @@
 cask "trawl" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
+  version "0.2.0"
   sha256 :no_check # unsigned build; bump `version` per release (see repo README)
 
   url "https://github.com/kurenn/trawl/releases/download/v#{version}/Trawl_#{version}_#{arch}.dmg",
