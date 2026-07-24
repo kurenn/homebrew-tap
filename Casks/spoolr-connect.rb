@@ -1,6 +1,6 @@
 cask "spoolr-connect" do
-  version "0.8.0"
-  sha256 "85a430d12f9f59261a3696c2839d5a8c54f941520ef19c0c1dd6c628b4203200"
+  version "0.8.1"
+  sha256 "835d663650cc83797434a97d1822d967e7336e522efa36ec3ceb1290ca8c8863"
 
   url "https://github.com/kurenn/printer-connector/releases/download/v#{version}/SpoolrConnect-macos.zip",
       verified: "github.com/kurenn/printer-connector/"
