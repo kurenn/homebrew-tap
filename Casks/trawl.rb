@@ -1,9 +1,9 @@
 cask "trawl" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.1"
-  sha256 arm:   "64a5d64432adef82d1001f807f100e2f0e7870a9192dc324cc765d7173c56736",
-         intel: "30855026128b0dce70dc7d73999e5817798e4ac99f4ab4bc011da2b9887d6433"
+  version "0.5.0"
+  sha256 arm:   "6a97b8a4f7585bef463b29c16465b0b37a1751c680b31c4552bf07cec352c3b1",
+         intel: "8132655d4722e60ca746610385d58a6be0962a3dcceba85eb59eeb7bd09a838c"
 
   url "https://github.com/kurenn/trawl/releases/download/v#{version}/Trawl_#{version}_#{arch}.dmg",
       verified: "github.com/kurenn/trawl/"
